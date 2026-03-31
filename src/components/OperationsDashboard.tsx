@@ -1,15 +1,16 @@
-import React, { useState } from 'react';
-import { Calendar, MessageSquare, Network, Leaf, RefreshCw, Lightbulb, ChevronRight, Info } from 'lucide-react';
+import { useState } from 'react';
+import { Calendar, MessageSquare, Network, Leaf, RefreshCw, Lightbulb } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Cell } from 'recharts';
 import { motion } from 'framer-motion';
-import { Button, Badge } from '@blumnai-studio/blumnai-design-system';
+import { Button } from './ui/button';
+import { Badge } from './ui/badge';
 
 // Types and Mock Data
 type ChartType = 'bar' | 'line';
 const usageData = [{ day: '03-01', value: 120 }, { day: '03-05', value: 450 }, { day: '03-10', value: 300 }, { day: '03-15', value: 600 }, { day: '03-20', value: 200 }, { day: '03-25', value: 800 }, { day: '03-26', value: 400 }] as any[];
 const trafficData = [{ day: '03-01', base: 400, extra: 240 }, { day: '03-05', base: 300, extra: 139 }, { day: '03-10', base: 200, extra: 980 }, { day: '03-15', base: 278, extra: 390 }, { day: '03-20', base: 189, extra: 480 }, { day: '03-25', base: 239, extra: 380 }, { day: '03-26', base: 349, extra: 430 }] as any[];
 
-const StatCard = ({ title, value, subtext, align = 'left' }: { title: string; value: string; subtext: string; align?: 'left' | 'right' }) => (
+const StatCard = ({ value, subtext, align = 'left' }: { value: string; subtext: string; align?: 'left' | 'right' }) => (
   <div className={`flex flex-col ${align === 'right' ? 'items-end text-right' : 'items-start text-left'}`}>
     <div className="text-[17px] font-semibold text-text-default leading-7 tracking-tight">{value}</div>
     <div className="text-[13px] font-normal text-text-muted leading-5">{subtext}</div>
@@ -20,7 +21,7 @@ const SectionHeader = ({ title, icon: Icon, onIconClick }: { title: string; icon
   <div className="flex justify-between items-center w-full mb-3">
     <div className="text-[17px] font-semibold text-text-muted leading-7 tracking-tight">{title}</div>
     {Icon && (
-      <Button buttonStyle="secondary" onClick={onIconClick} className="w-[30px] h-[30px] p-0 flex items-center justify-center">
+      <Button variant="secondary" onClick={onIconClick} className="w-[30px] h-[30px] p-0 flex items-center justify-center">
         <Icon size={16} />
       </Button>
     )}
@@ -43,7 +44,7 @@ export const OperationsDashboard = () => {
         <div className="flex justify-between items-center mb-1">
           <div className="flex items-center gap-3.5">
             <h1 className="text-xl font-semibold leading-7 tracking-tight">운영 인사이트</h1>
-            <Button buttonStyle="secondary" size="sm" className="h-[26px] text-xs px-3 rounded-full">도움말</Button>
+            <Button variant="secondary" size="sm" className="h-[26px] text-xs px-3 rounded-full">도움말</Button>
           </div>
         </div>
         <p className="text-[13px] text-text-muted mb-4">
@@ -104,19 +105,19 @@ export const OperationsDashboard = () => {
                 <div className="grid grid-cols-2 gap-y-2 text-sm">
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium">해피톡</span>
-                    <Badge label="사용" color="green" />
+                    <Badge variant="success">사용</Badge>
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium text-text-muted">카카오톡</span>
-                    <Badge label="미사용" color="neutral" />
+                    <Badge variant="secondary">미사용</Badge>
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium text-text-muted">네이버톡톡</span>
-                    <Badge label="미사용" color="neutral" />
+                    <Badge variant="secondary">미사용</Badge>
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium text-text-muted">인스타그램</span>
-                    <Badge label="미사용" color="neutral" />
+                    <Badge variant="secondary">미사용</Badge>
                   </div>
                 </div>
               </div>
@@ -127,11 +128,11 @@ export const OperationsDashboard = () => {
                 <div className="flex flex-col gap-2 text-sm">
                   <div className="flex items-center gap-3">
                     <span className="w-14 font-medium text-text-muted">주문연동</span>
-                    <Badge label="미연동" color="neutral" />
+                    <Badge variant="secondary">미연동</Badge>
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="w-14 font-medium text-text-muted">SMS인증</span>
-                    <Badge label="미사용" color="neutral" />
+                    <Badge variant="secondary">미사용</Badge>
                     <span className="underline cursor-pointer text-primary hover:text-blue-600 ml-1 font-medium">SMS인증 설정</span>
                   </div>
                 </div>
@@ -146,14 +147,14 @@ export const OperationsDashboard = () => {
                   <div className="flex items-center gap-4">
                     <span className="w-10 font-medium text-text-muted">해피톡</span>
                     <div className="flex gap-4 items-center">
-                      <Badge label="Enterprise" color="yellow" />
+                      <Badge variant="warning">Enterprise</Badge>
                       <span className="text-primary font-semibold">1개 (인증:1개 / 미인증:0개)</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-10 font-medium text-text-muted">챗봇</span>
                     <div className="flex gap-4">
-                      <Badge label="미사용" color="neutral" />
+                      <Badge variant="secondary">미사용</Badge>
                       <span className="text-primary font-semibold ml-1">0건 / 0건</span>
                     </div>
                   </div>
@@ -168,7 +169,7 @@ export const OperationsDashboard = () => {
                       <span className="text-[15px] font-medium text-text-muted">보유 금액</span>
                       <span className="text-[17px] font-bold text-text-default tracking-tight">0원</span>
                     </div>
-                    <Button buttonStyle="secondary" className="w-[30px] h-[30px] p-0 flex items-center justify-center">
+                    <Button variant="secondary" className="w-[30px] h-[30px] p-0 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full flex items-center justify-center text-[10px] bg-yellow-400 text-white font-bold italic">H</div>
                     </Button>
                   </div>
@@ -182,7 +183,7 @@ export const OperationsDashboard = () => {
                     <span className="w-20 font-medium text-text-muted">차감예정금액</span>
                     <div className="flex items-center gap-3">
                       <span className="text-red-500 font-semibold">0원</span>
-                      <Button buttonStyle="primary" size="sm" className="h-[24px] px-2 text-xs">충전</Button>
+                      <Button variant="default" size="sm" className="h-[24px] px-2 text-xs">충전</Button>
                     </div>
                   </div>
                 </div>
@@ -206,17 +207,17 @@ export const OperationsDashboard = () => {
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-3 mb-3">
               <div className="border border-border-default rounded-lg p-4 px-5">
                 <div className="text-sm mb-2 text-text-muted">3월 카카오 상담톡 사용량</div>
-                <StatCard title="3월 카카오 상담톡 사용량" value="0건" subtext="총 사용량" />
+                <StatCard value="0건" subtext="총 사용량" />
               </div>
               <div className="border border-border-default rounded-lg p-4 px-5 flex justify-between">
                 <div className="flex flex-col">
                   <div className="text-sm mb-2 text-text-muted">3월 SMS인증/메시지 발송량</div>
-                  <StatCard title="SMS인증 총 발송량" value="0건" subtext="SMS인증 총 발송량" />
+                  <StatCard value="0건" subtext="SMS인증 총 발송량" />
                 </div>
                 <div className="flex flex-col items-end">
                   <div className="h-5" />
                   <div className="flex items-center gap-1 group relative">
-                    <StatCard title="메시지 총 발송량" value="0건" subtext="메시지 총 발송량" align="right" />
+                    <StatCard value="0건" subtext="메시지 총 발송량" align="right" />
                     <Lightbulb size={13} className="text-text-muted mt-1 cursor-help" />
                   </div>
                 </div>
@@ -298,8 +299,8 @@ export const OperationsDashboard = () => {
             <div className="border border-border-default rounded-lg p-4 px-5 mb-3">
               <div className="text-sm mb-4 text-text-muted">3월 챗봇 트래픽 사용량</div>
               <div className="flex justify-between items-center">
-                <StatCard title="기본 트래픽" value="0건" subtext="기본 트래픽 총 사용량" />
-                <StatCard title="초과 트래픽" value="0건" subtext="초과 트래픽 총 사용량" align="right" />
+                <StatCard value="0건" subtext="기본 트래픽 총 사용량" />
+                <StatCard value="0건" subtext="초과 트래픽 총 사용량" align="right" />
               </div>
             </div>
 

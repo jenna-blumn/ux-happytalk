@@ -35,8 +35,11 @@ function ChatPage() {
 }
 
 // Placeholder pages for other routes
-import { Input, Button, Badge, Card, CardHeader, CardTitle, CardContent } from "@blumnai-studio/blumnai-design-system";
-import { Plus, Trash2, GripVertical, Clock, Save, RefreshCw, ChevronRight, Mail, Globe, Search, Info } from "lucide-react";
+import { Input } from "./components/ui/input";
+import { Button } from "./components/ui/button";
+import { Badge } from "./components/ui/badge";
+import { Card, CardHeader, CardTitle, CardContent } from "./components/ui/card";
+import { Plus, Trash2, GripVertical, Clock, Save, RefreshCw, ChevronRight } from "lucide-react";
 
 function SettingsPage() {
     return (
@@ -56,7 +59,7 @@ function SettingsPage() {
                             <div className="size-20 rounded-[16px] bg-bg-tertiary border border-darker flex items-center justify-center overflow-hidden">
                                 <span className="text-fg-muted text-[13px]">No Image</span>
                             </div>
-                            <Button buttonStyle="secondary">변경</Button>
+                            <Button variant="secondary">변경</Button>
                         </div>
                         <div className="flex-1 space-y-4">
                             <div className="grid grid-cols-2 gap-4">
@@ -76,11 +79,11 @@ function SettingsPage() {
                         </div>
                     </div>
                     <div className="flex gap-2 pt-2">
-                        <Button buttonStyle="primary">
+                        <Button>
                             <Save className="size-3.5" />
                             저장하기
                         </Button>
-                        <Button buttonStyle="secondary">
+                        <Button variant="secondary">
                             <RefreshCw className="size-3.5" />
                             초기화
                         </Button>
@@ -121,7 +124,7 @@ function SettingsConditionsPage() {
                 <CardHeader className="pb-3 border-b border-darker">
                     <div className="flex items-center justify-between">
                         <CardTitle className="text-[16px] font-bold text-fg-primary">운영 시간 설정</CardTitle>
-                        <Badge label="운영 중" color="green" />
+                        <Badge variant="success">운영 중</Badge>
                     </div>
                 </CardHeader>
                 <CardContent className="pt-6 space-y-4">
@@ -137,7 +140,7 @@ function SettingsConditionsPage() {
                                     <span className="text-fg-muted font-bold">-</span>
                                     <Input className="w-24 text-center font-medium" defaultValue="18:00" />
                                     <div className="ml-4 h-5 w-[1px] bg-darker" />
-                                    <Button buttonStyle="ghost" className="text-primary font-bold">점심시간 추가</Button>
+                                    <Button variant="ghost" className="text-primary font-bold">점심시간 추가</Button>
                                 </div>
                             </div>
                         ))}
@@ -150,7 +153,7 @@ function SettingsConditionsPage() {
                         </div>
                     </div>
                     <div className="flex justify-end pt-2">
-                        <Button buttonStyle="primary" width={96}>설정 저장</Button>
+                        <Button className="w-24">설정 저장</Button>
                     </div>
                 </CardContent>
             </Card>
@@ -190,11 +193,11 @@ function SettingsCategoriesPage() {
 
             <div className="flex justify-between items-center bg-white/6 border border-darker p-4 rounded-[12px] shadow-sort-card">
                 <div className="flex items-center gap-4">
-                    <Button buttonStyle="secondary">전체 카테고리</Button>
+                    <Button variant="secondary">전체 카테고리</Button>
                     <div className="h-4 w-[1px] bg-darker" />
                     <span className="text-[13px] text-fg-tertiary">총 {categories.length}개의 대분류</span>
                 </div>
-                <Button buttonStyle="primary">
+                <Button>
                     <Plus className="size-4" />
                     새 분류 추가
                 </Button>
@@ -215,12 +218,12 @@ function SettingsCategoriesPage() {
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-3">
-                                    <Badge label={cat.status} color={cat.status === "사용 중" ? "green" : "neutral"} />
-                                    <Button buttonStyle="ghost">
+                                    <Badge variant={cat.status === "사용 중" ? "success" : "secondary"}>{cat.status}</Badge>
+                                    <Button variant="ghost">
                                         <ChevronRight className="size-4 text-fg-muted" />
                                     </Button>
                                     <div className="h-4 w-[1px] bg-darker mx-1" />
-                                    <Button buttonStyle="ghost" className="text-red-500 hover:bg-red-50 text-[12px]">
+                                    <Button variant="ghost" className="text-red-500 hover:bg-red-50 text-[12px]">
                                         <Trash2 className="size-3.5" />
                                     </Button>
                                 </div>

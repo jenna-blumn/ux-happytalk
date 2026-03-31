@@ -26,12 +26,10 @@ function IcChannelHappytalkBalloonS() {
 
 function SidebarItem({
     icon: Icon,
-    path,
     isActive,
     onClick
 }: {
     icon: any;
-    path?: string;
     isActive?: boolean;
     onClick?: () => void;
 }) {
