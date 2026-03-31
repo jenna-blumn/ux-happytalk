@@ -1,0 +1,21 @@
+import type { SVGProps } from 'react';
+/**
+ * Available brand/logo types
+ * Names match Figma layer names exactly
+ */
+export type BrandType = 'adobe' | 'affinity designer' | 'after effects' | 'airbnb' | 'algorand' | 'aliexpress' | 'android' | 'angular' | 'apple' | 'apple music' | 'arc' | 'arc browser' | 'asana' | 'binance' | 'bing' | 'bitcoin' | 'blender' | 'bluesky' | 'bnb' | 'bootstrap' | 'canva' | 'cash app' | 'chatgpt' | 'chrome' | 'chromium' | 'claude' | 'clerk' | 'cody' | 'coinbase' | 'copilot' | 'custom ai' | 'deepseek' | 'digitalocean' | 'discord' | 'docker' | 'doge' | 'dotenv' | 'dropbox' | 'dub' | 'edge' | 'elysiajs' | 'ethereum' | 'facebook' | 'figma' | 'firefox' | 'framer' | 'gimp' | 'github' | 'gitlab' | 'gnail' | 'google' | 'google drive' | 'hashnode' | 'illustrator' | 'instatus' | 'json' | 'layers' | 'leap wallet' | 'lemon squeezy' | 'lightroom' | 'linear' | 'link' | 'link _4146131087' | 'litecoin' | 'mastercard' | 'mastodon' | 'matic' | 'messenger' | 'meta' | 'metamask' | 'monero' | 'nextjs' | 'notion' | 'obsidian' | 'onedrive' | 'opensea' | 'opera' | 'password' | 'patreon' | 'paypal' | 'perplexity' | 'photoshop' | 'pinterest' | 'pitch' | 'polar' | 'product hunt' | 'raycast' | 'react' | 'reddit' | 'ruby' | 'safari' | 'shopify' | 'sketch' | 'skype' | 'solana' | 'sort ui' | 'spotify' | 'steam' | 'supabase' | 'swift' | 'tailwind css' | 'telegram' | 'tether' | 'threads' | 'todoist' | 'ton' | 'tron' | 'trust' | 'twitch' | 'unreal engine' | 'v0' | 'vercel' | 'visa' | 'vue' | 'webflow' | 'whop' | 'windows' | 'wordpress' | 'xrp' | 'youtube';
+export interface BrandIconProps extends Omit<SVGProps<SVGSVGElement>, 'children' | 'cursor' | 'focusable'> {
+    /**
+     * Brand type (matches Figma)
+     */
+    brandType: BrandType;
+    /**
+     * Icon size in pixels
+     * @default 24
+     */
+    size?: number;
+    /**
+     * Additional CSS class name
+     */
+    className?: string;
+}

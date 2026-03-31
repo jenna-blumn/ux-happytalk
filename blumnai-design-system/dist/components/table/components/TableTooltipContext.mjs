@@ -1,0 +1,6 @@
+"use client";
+import { createContext as t } from "react";
+const e = t(null);
+export {
+  e as TableTooltipContext
+};

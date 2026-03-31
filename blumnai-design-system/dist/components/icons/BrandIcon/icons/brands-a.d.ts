@@ -1,0 +1,14 @@
+import type { Props } from '../../Icon/IconWrapper.types';
+export declare const BrandAdobeIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAffinityDesignerIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAfterEffectsIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAirbnbIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAlgorandIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAliExpressIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAndroidIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAngularIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAppleIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAppleMusicIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandArcBrowserIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandArcIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandAsanaIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;

@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/card/index.mjs",
+  "module": "../dist/components/card/index.mjs",
+  "types": "../dist/components/card/index.d.ts"
+}

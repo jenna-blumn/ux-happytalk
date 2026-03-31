@@ -1,0 +1,15 @@
+import type { IsometricSvgProps } from './isometric.types';
+export declare const IsoOpenInNewLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoOpenInNewTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoOutputCircleLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoOutputCircleTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoPersonAddLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoPersonAddTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoPsychologyAltLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoPsychologyAltTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoRocketLaunchLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoRocketLaunchTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoRotateAutoLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoRotateAutoTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoRuleSettingsLeftIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;
+export declare const IsoRuleSettingsTopIcon: import("react").ForwardRefExoticComponent<Omit<IsometricSvgProps, "ref"> & import("react").RefAttributes<SVGSVGElement>>;

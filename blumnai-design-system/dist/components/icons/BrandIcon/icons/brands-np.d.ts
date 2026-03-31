@@ -1,0 +1,16 @@
+import type { Props } from '../../Icon/IconWrapper.types';
+export declare const BrandNextJsIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandNotionIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandObsidianIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandOneDriveIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandOpenSeaIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandOperaIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPasswordIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPatreonIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPayPalIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPerplexityIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPhotoshopIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPinterestIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPitchIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandPolarIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandProductHuntIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;

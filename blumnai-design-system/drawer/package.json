@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/drawer-sheet/index.mjs",
+  "module": "../dist/components/drawer-sheet/index.mjs",
+  "types": "../dist/components/drawer-sheet/index.d.ts"
+}

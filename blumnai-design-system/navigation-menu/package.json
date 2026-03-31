@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/navigation-menu/index.mjs",
+  "module": "../dist/components/navigation-menu/index.mjs",
+  "types": "../dist/components/navigation-menu/index.d.ts"
+}

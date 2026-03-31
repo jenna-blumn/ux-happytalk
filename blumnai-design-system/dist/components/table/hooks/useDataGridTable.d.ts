@@ -1,0 +1,57 @@
+import type { SortingState, ColumnFiltersState, RowSelectionState, ColumnOrderState, ColumnDef, OnChangeFn, Row } from '@tanstack/react-table';
+import type { ColumnSizingState } from '../DataGrid.types';
+interface UseDataGridTableOptions<T> {
+    data: T[];
+    columns: ColumnDef<T>[];
+    getRowId?: (row: T) => string;
+    sorting?: SortingState;
+    onSortingChange?: OnChangeFn<SortingState>;
+    columnFilters?: ColumnFiltersState;
+    onColumnFiltersChange?: OnChangeFn<ColumnFiltersState>;
+    rowSelection?: RowSelectionState;
+    onRowSelectionChange?: OnChangeFn<RowSelectionState>;
+    enableRowSelection?: boolean | ((row: Row<T>) => boolean);
+    enableColumnReorder?: boolean;
+    columnOrder?: ColumnOrderState;
+    onColumnOrderChange?: OnChangeFn<ColumnOrderState>;
+    enableColumnResize?: boolean;
+    columnSizing?: ColumnSizingState;
+    onColumnSizingChange?: (sizing: ColumnSizingState) => void;
+    pagination?: boolean;
+    page?: number;
+    total?: number;
+    limit?: number;
+    onPageChange?: (page: number) => void;
+    onLimitChange?: (limit: number) => void;
+    isLoading?: boolean;
+    preserveDataWhileLoading?: boolean;
+}
+export declare function useDataGridTable<T>(options: UseDataGridTableOptions<T>): {
+    table: import("@tanstack/table-core").Table<T>;
+    isServerSide: boolean;
+    sorting: SortingState;
+    columnFilters: ColumnFiltersState;
+    rowSelection: RowSelectionState;
+    pagination: {
+        page: number;
+        limit: number;
+        total: number;
+        totalPages: number;
+        hasNextPage: boolean;
+        hasPreviousPage: boolean;
+        startIndex: number;
+        endIndex: number;
+    };
+    handleSortingChange: OnChangeFn<SortingState>;
+    handleColumnFiltersChange: OnChangeFn<ColumnFiltersState>;
+    handleRowSelectionChange: OnChangeFn<RowSelectionState>;
+    columnSizing: ColumnSizingState;
+    handleColumnSizingChange: (sizing: ColumnSizingState) => void;
+    handleColumnOrderChange: OnChangeFn<ColumnOrderState>;
+    handlePageChange: (newPage: number) => void;
+    handleLimitChange: (newLimit: number) => void;
+    displayData: T[];
+    isLoading: boolean | undefined;
+    preserveDataWhileLoading: boolean | undefined;
+};
+export {};

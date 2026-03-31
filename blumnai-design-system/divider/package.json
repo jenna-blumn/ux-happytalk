@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/divider/index.mjs",
+  "module": "../dist/components/divider/index.mjs",
+  "types": "../dist/components/divider/index.d.ts"
+}

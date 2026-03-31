@@ -1,0 +1,767 @@
+{
+  "name": "@blumnai-studio/blumnai-design-system",
+  "version": "1.0.56",
+  "private": false,
+  "type": "module",
+  "main": "./dist/index.mjs",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "dist/index.d.ts"
+      ],
+      "accordion": [
+        "dist/components/accordion/index.d.ts"
+      ],
+      "aspect-ratio": [
+        "dist/components/aspect-ratio/index.d.ts"
+      ],
+      "avatar": [
+        "dist/components/avatar/index.d.ts"
+      ],
+      "badge": [
+        "dist/components/badge/index.d.ts"
+      ],
+      "breadcrumbs": [
+        "dist/components/breadcrumbs/index.d.ts"
+      ],
+      "button": [
+        "dist/components/button/index.d.ts"
+      ],
+      "calendar": [
+        "dist/components/calendar/index.d.ts"
+      ],
+      "card": [
+        "dist/components/card/index.d.ts"
+      ],
+      "carousel": [
+        "dist/components/carousel/index.d.ts"
+      ],
+      "chart": [
+        "dist/components/chart/index.d.ts"
+      ],
+      "checkbox": [
+        "dist/components/checkbox/index.d.ts"
+      ],
+      "chip": [
+        "dist/components/chip/index.d.ts"
+      ],
+      "collapsible": [
+        "dist/components/collapsible/index.d.ts"
+      ],
+      "context-menu": [
+        "dist/components/context-menu/index.d.ts"
+      ],
+      "dialog": [
+        "dist/components/dialog/index.d.ts"
+      ],
+      "divider": [
+        "dist/components/divider/index.d.ts"
+      ],
+      "drawer": [
+        "dist/components/drawer-sheet/index.d.ts"
+      ],
+      "dnd": [
+        "dist/components/dnd/index.d.ts"
+      ],
+      "dropdown": [
+        "dist/components/dropdown/index.d.ts"
+      ],
+      "empty-state": [
+        "dist/components/empty-state/index.d.ts"
+      ],
+      "file-upload": [
+        "dist/components/file-upload/index.d.ts"
+      ],
+      "form": [
+        "dist/components/form/index.d.ts"
+      ],
+      "hover-card": [
+        "dist/components/hover-card/index.d.ts"
+      ],
+      "info-box": [
+        "dist/components/info-box/index.d.ts"
+      ],
+      "icons": [
+        "dist/components/icons/index.d.ts"
+      ],
+      "icons/icon": [
+        "dist/components/icons/Icon/index.d.ts"
+      ],
+      "icons/brand": [
+        "dist/components/icons/BrandIcon/index.d.ts"
+      ],
+      "icons/flag": [
+        "dist/components/icons/FlagIcon/index.d.ts"
+      ],
+      "icons/file": [
+        "dist/components/icons/FileIcon/index.d.ts"
+      ],
+      "icons/arrows": [
+        "dist/components/icons/Icon/icons/arrows.d.ts"
+      ],
+      "icons/buildings": [
+        "dist/components/icons/Icon/icons/buildings.d.ts"
+      ],
+      "icons/business": [
+        "dist/components/icons/Icon/icons/business.d.ts"
+      ],
+      "icons/communication": [
+        "dist/components/icons/Icon/icons/communication.d.ts"
+      ],
+      "icons/design": [
+        "dist/components/icons/Icon/icons/design.d.ts"
+      ],
+      "icons/development": [
+        "dist/components/icons/Icon/icons/development.d.ts"
+      ],
+      "icons/device": [
+        "dist/components/icons/Icon/icons/device.d.ts"
+      ],
+      "icons/document": [
+        "dist/components/icons/Icon/icons/document.d.ts"
+      ],
+      "icons/editor": [
+        "dist/components/icons/Icon/icons/editor.d.ts"
+      ],
+      "icons/finance": [
+        "dist/components/icons/Icon/icons/finance.d.ts"
+      ],
+      "icons/food": [
+        "dist/components/icons/Icon/icons/food.d.ts"
+      ],
+      "icons/health": [
+        "dist/components/icons/Icon/icons/health & medical.d.ts"
+      ],
+      "icons/logos": [
+        "dist/components/icons/Icon/icons/logos.d.ts"
+      ],
+      "icons/map": [
+        "dist/components/icons/Icon/icons/map.d.ts"
+      ],
+      "icons/media": [
+        "dist/components/icons/Icon/icons/media.d.ts"
+      ],
+      "icons/others": [
+        "dist/components/icons/Icon/icons/others.d.ts"
+      ],
+      "icons/system": [
+        "dist/components/icons/Icon/icons/system.d.ts"
+      ],
+      "icons/user": [
+        "dist/components/icons/Icon/icons/user & faces.d.ts"
+      ],
+      "icons/weather": [
+        "dist/components/icons/Icon/icons/weather.d.ts"
+      ],
+      "icons/flags": [
+        "dist/components/icons/FlagIcon/icons/all.d.ts"
+      ],
+      "icons/brands": [
+        "dist/components/icons/BrandIcon/icons/index.d.ts"
+      ],
+      "icons/isometric": [
+        "dist/components/icons/IsometricIcon/icons/index.d.ts"
+      ],
+      "icons/file-icons": [
+        "dist/components/icons/FileIcon/icons/all.d.ts"
+      ],
+      "icons/cursors": [
+        "dist/components/icons/CursorIcon/icons/all.d.ts"
+      ],
+      "input": [
+        "dist/components/input/index.d.ts"
+      ],
+      "input-otp": [
+        "dist/components/input-otp/index.d.ts"
+      ],
+      "menubar": [
+        "dist/components/menubar/index.d.ts"
+      ],
+      "navigation-menu": [
+        "dist/components/navigation-menu/index.d.ts"
+      ],
+      "pagination": [
+        "dist/components/pagination/index.d.ts"
+      ],
+      "popover": [
+        "dist/components/popover/index.d.ts"
+      ],
+      "progress": [
+        "dist/components/progress/index.d.ts"
+      ],
+      "radio": [
+        "dist/components/radio/index.d.ts"
+      ],
+      "resizable": [
+        "dist/components/resizable/index.d.ts"
+      ],
+      "scroll-area": [
+        "dist/components/scroll-area/index.d.ts"
+      ],
+      "select": [
+        "dist/components/select/index.d.ts"
+      ],
+      "sidebar": [
+        "dist/components/sidebar/index.d.ts"
+      ],
+      "skeleton": [
+        "dist/components/skeleton/index.d.ts"
+      ],
+      "slider": [
+        "dist/components/slider/index.d.ts"
+      ],
+      "status-dot": [
+        "dist/components/status-dot/index.d.ts"
+      ],
+      "stepper": [
+        "dist/components/stepper/index.d.ts"
+      ],
+      "switch": [
+        "dist/components/switch/index.d.ts"
+      ],
+      "table": [
+        "dist/components/table/index.d.ts"
+      ],
+      "tabs": [
+        "dist/components/tabs/index.d.ts"
+      ],
+      "textarea": [
+        "dist/components/textarea/index.d.ts"
+      ],
+      "time-picker": [
+        "dist/components/time-picker/index.d.ts"
+      ],
+      "toast": [
+        "dist/components/toast/index.d.ts"
+      ],
+      "tooltip": [
+        "dist/components/tooltip/index.d.ts"
+      ],
+      "virtual-select": [
+        "dist/components/virtual-select/index.d.ts"
+      ]
+    }
+  },
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.mjs"
+    },
+    "./accordion": {
+      "types": "./dist/components/accordion/index.d.ts",
+      "import": "./dist/components/accordion/index.mjs"
+    },
+    "./aspect-ratio": {
+      "types": "./dist/components/aspect-ratio/index.d.ts",
+      "import": "./dist/components/aspect-ratio/index.mjs"
+    },
+    "./avatar": {
+      "types": "./dist/components/avatar/index.d.ts",
+      "import": "./dist/components/avatar/index.mjs"
+    },
+    "./badge": {
+      "types": "./dist/components/badge/index.d.ts",
+      "import": "./dist/components/badge/index.mjs"
+    },
+    "./breadcrumbs": {
+      "types": "./dist/components/breadcrumbs/index.d.ts",
+      "import": "./dist/components/breadcrumbs/index.mjs"
+    },
+    "./button": {
+      "types": "./dist/components/button/index.d.ts",
+      "import": "./dist/components/button/index.mjs"
+    },
+    "./calendar": {
+      "types": "./dist/components/calendar/index.d.ts",
+      "import": "./dist/components/calendar/index.mjs"
+    },
+    "./card": {
+      "types": "./dist/components/card/index.d.ts",
+      "import": "./dist/components/card/index.mjs"
+    },
+    "./carousel": {
+      "types": "./dist/components/carousel/index.d.ts",
+      "import": "./dist/components/carousel/index.mjs"
+    },
+    "./chart": {
+      "types": "./dist/components/chart/index.d.ts",
+      "import": "./dist/components/chart/index.mjs"
+    },
+    "./checkbox": {
+      "types": "./dist/components/checkbox/index.d.ts",
+      "import": "./dist/components/checkbox/index.mjs"
+    },
+    "./chip": {
+      "types": "./dist/components/chip/index.d.ts",
+      "import": "./dist/components/chip/index.mjs"
+    },
+    "./collapsible": {
+      "types": "./dist/components/collapsible/index.d.ts",
+      "import": "./dist/components/collapsible/index.mjs"
+    },
+    "./context-menu": {
+      "types": "./dist/components/context-menu/index.d.ts",
+      "import": "./dist/components/context-menu/index.mjs"
+    },
+    "./dialog": {
+      "types": "./dist/components/dialog/index.d.ts",
+      "import": "./dist/components/dialog/index.mjs"
+    },
+    "./divider": {
+      "types": "./dist/components/divider/index.d.ts",
+      "import": "./dist/components/divider/index.mjs"
+    },
+    "./drawer": {
+      "types": "./dist/components/drawer-sheet/index.d.ts",
+      "import": "./dist/components/drawer-sheet/index.mjs"
+    },
+    "./dnd": {
+      "types": "./dist/components/dnd/index.d.ts",
+      "import": "./dist/components/dnd/index.mjs"
+    },
+    "./dropdown": {
+      "types": "./dist/components/dropdown/index.d.ts",
+      "import": "./dist/components/dropdown/index.mjs"
+    },
+    "./empty-state": {
+      "types": "./dist/components/empty-state/index.d.ts",
+      "import": "./dist/components/empty-state/index.mjs"
+    },
+    "./file-upload": {
+      "types": "./dist/components/file-upload/index.d.ts",
+      "import": "./dist/components/file-upload/index.mjs"
+    },
+    "./form": {
+      "types": "./dist/components/form/index.d.ts",
+      "import": "./dist/components/form/index.mjs"
+    },
+    "./hover-card": {
+      "types": "./dist/components/hover-card/index.d.ts",
+      "import": "./dist/components/hover-card/index.mjs"
+    },
+    "./info-box": {
+      "types": "./dist/components/info-box/index.d.ts",
+      "import": "./dist/components/info-box/index.mjs"
+    },
+    "./icons": {
+      "types": "./dist/components/icons/index.d.ts",
+      "import": "./dist/components/icons/index.mjs"
+    },
+    "./icons/icon": {
+      "types": "./dist/components/icons/Icon/index.d.ts",
+      "import": "./dist/components/icons/Icon/index.mjs"
+    },
+    "./icons/brand": {
+      "types": "./dist/components/icons/BrandIcon/index.d.ts",
+      "import": "./dist/components/icons/BrandIcon/index.mjs"
+    },
+    "./icons/flag": {
+      "types": "./dist/components/icons/FlagIcon/index.d.ts",
+      "import": "./dist/components/icons/FlagIcon/index.mjs"
+    },
+    "./icons/file": {
+      "types": "./dist/components/icons/FileIcon/index.d.ts",
+      "import": "./dist/components/icons/FileIcon/index.mjs"
+    },
+    "./icons/arrows": {
+      "types": "./dist/components/icons/Icon/icons/arrows.d.ts",
+      "import": "./dist/components/icons/Icon/icons/arrows.mjs"
+    },
+    "./icons/buildings": {
+      "types": "./dist/components/icons/Icon/icons/buildings.d.ts",
+      "import": "./dist/components/icons/Icon/icons/buildings.mjs"
+    },
+    "./icons/business": {
+      "types": "./dist/components/icons/Icon/icons/business.d.ts",
+      "import": "./dist/components/icons/Icon/icons/business.mjs"
+    },
+    "./icons/communication": {
+      "types": "./dist/components/icons/Icon/icons/communication.d.ts",
+      "import": "./dist/components/icons/Icon/icons/communication.mjs"
+    },
+    "./icons/design": {
+      "types": "./dist/components/icons/Icon/icons/design.d.ts",
+      "import": "./dist/components/icons/Icon/icons/design.mjs"
+    },
+    "./icons/development": {
+      "types": "./dist/components/icons/Icon/icons/development.d.ts",
+      "import": "./dist/components/icons/Icon/icons/development.mjs"
+    },
+    "./icons/device": {
+      "types": "./dist/components/icons/Icon/icons/device.d.ts",
+      "import": "./dist/components/icons/Icon/icons/device.mjs"
+    },
+    "./icons/document": {
+      "types": "./dist/components/icons/Icon/icons/document.d.ts",
+      "import": "./dist/components/icons/Icon/icons/document.mjs"
+    },
+    "./icons/editor": {
+      "types": "./dist/components/icons/Icon/icons/editor.d.ts",
+      "import": "./dist/components/icons/Icon/icons/editor.mjs"
+    },
+    "./icons/finance": {
+      "types": "./dist/components/icons/Icon/icons/finance.d.ts",
+      "import": "./dist/components/icons/Icon/icons/finance.mjs"
+    },
+    "./icons/food": {
+      "types": "./dist/components/icons/Icon/icons/food.d.ts",
+      "import": "./dist/components/icons/Icon/icons/food.mjs"
+    },
+    "./icons/health": {
+      "types": "./dist/components/icons/Icon/icons/health & medical.d.ts",
+      "import": "./dist/components/icons/Icon/icons/health & medical.mjs"
+    },
+    "./icons/logos": {
+      "types": "./dist/components/icons/Icon/icons/logos.d.ts",
+      "import": "./dist/components/icons/Icon/icons/logos.mjs"
+    },
+    "./icons/map": {
+      "types": "./dist/components/icons/Icon/icons/map.d.ts",
+      "import": "./dist/components/icons/Icon/icons/map.mjs"
+    },
+    "./icons/media": {
+      "types": "./dist/components/icons/Icon/icons/media.d.ts",
+      "import": "./dist/components/icons/Icon/icons/media.mjs"
+    },
+    "./icons/others": {
+      "types": "./dist/components/icons/Icon/icons/others.d.ts",
+      "import": "./dist/components/icons/Icon/icons/others.mjs"
+    },
+    "./icons/system": {
+      "types": "./dist/components/icons/Icon/icons/system.d.ts",
+      "import": "./dist/components/icons/Icon/icons/system.mjs"
+    },
+    "./icons/user": {
+      "types": "./dist/components/icons/Icon/icons/user & faces.d.ts",
+      "import": "./dist/components/icons/Icon/icons/user & faces.mjs"
+    },
+    "./icons/weather": {
+      "types": "./dist/components/icons/Icon/icons/weather.d.ts",
+      "import": "./dist/components/icons/Icon/icons/weather.mjs"
+    },
+    "./icons/flags": {
+      "types": "./dist/components/icons/FlagIcon/icons/all.d.ts",
+      "import": "./dist/components/icons/FlagIcon/icons/all.mjs"
+    },
+    "./icons/brands": {
+      "types": "./dist/components/icons/BrandIcon/icons/index.d.ts",
+      "import": "./dist/components/icons/BrandIcon/icons/index.mjs"
+    },
+    "./icons/isometric": {
+      "types": "./dist/components/icons/IsometricIcon/icons/index.d.ts",
+      "import": "./dist/components/icons/IsometricIcon/icons/index.mjs"
+    },
+    "./icons/file-icons": {
+      "types": "./dist/components/icons/FileIcon/icons/all.d.ts",
+      "import": "./dist/components/icons/FileIcon/icons/all.mjs"
+    },
+    "./icons/cursors": {
+      "types": "./dist/components/icons/CursorIcon/icons/all.d.ts",
+      "import": "./dist/components/icons/CursorIcon/icons/all.mjs"
+    },
+    "./input": {
+      "types": "./dist/components/input/index.d.ts",
+      "import": "./dist/components/input/index.mjs"
+    },
+    "./input-otp": {
+      "types": "./dist/components/input-otp/index.d.ts",
+      "import": "./dist/components/input-otp/index.mjs"
+    },
+    "./menubar": {
+      "types": "./dist/components/menubar/index.d.ts",
+      "import": "./dist/components/menubar/index.mjs"
+    },
+    "./navigation-menu": {
+      "types": "./dist/components/navigation-menu/index.d.ts",
+      "import": "./dist/components/navigation-menu/index.mjs"
+    },
+    "./pagination": {
+      "types": "./dist/components/pagination/index.d.ts",
+      "import": "./dist/components/pagination/index.mjs"
+    },
+    "./popover": {
+      "types": "./dist/components/popover/index.d.ts",
+      "import": "./dist/components/popover/index.mjs"
+    },
+    "./progress": {
+      "types": "./dist/components/progress/index.d.ts",
+      "import": "./dist/components/progress/index.mjs"
+    },
+    "./radio": {
+      "types": "./dist/components/radio/index.d.ts",
+      "import": "./dist/components/radio/index.mjs"
+    },
+    "./resizable": {
+      "types": "./dist/components/resizable/index.d.ts",
+      "import": "./dist/components/resizable/index.mjs"
+    },
+    "./scroll-area": {
+      "types": "./dist/components/scroll-area/index.d.ts",
+      "import": "./dist/components/scroll-area/index.mjs"
+    },
+    "./select": {
+      "types": "./dist/components/select/index.d.ts",
+      "import": "./dist/components/select/index.mjs"
+    },
+    "./sidebar": {
+      "types": "./dist/components/sidebar/index.d.ts",
+      "import": "./dist/components/sidebar/index.mjs"
+    },
+    "./skeleton": {
+      "types": "./dist/components/skeleton/index.d.ts",
+      "import": "./dist/components/skeleton/index.mjs"
+    },
+    "./slider": {
+      "types": "./dist/components/slider/index.d.ts",
+      "import": "./dist/components/slider/index.mjs"
+    },
+    "./status-dot": {
+      "types": "./dist/components/status-dot/index.d.ts",
+      "import": "./dist/components/status-dot/index.mjs"
+    },
+    "./stepper": {
+      "types": "./dist/components/stepper/index.d.ts",
+      "import": "./dist/components/stepper/index.mjs"
+    },
+    "./switch": {
+      "types": "./dist/components/switch/index.d.ts",
+      "import": "./dist/components/switch/index.mjs"
+    },
+    "./table": {
+      "types": "./dist/components/table/index.d.ts",
+      "import": "./dist/components/table/index.mjs"
+    },
+    "./tabs": {
+      "types": "./dist/components/tabs/index.d.ts",
+      "import": "./dist/components/tabs/index.mjs"
+    },
+    "./textarea": {
+      "types": "./dist/components/textarea/index.d.ts",
+      "import": "./dist/components/textarea/index.mjs"
+    },
+    "./time-picker": {
+      "types": "./dist/components/time-picker/index.d.ts",
+      "import": "./dist/components/time-picker/index.mjs"
+    },
+    "./toast": {
+      "types": "./dist/components/toast/index.d.ts",
+      "import": "./dist/components/toast/index.mjs"
+    },
+    "./tooltip": {
+      "types": "./dist/components/tooltip/index.d.ts",
+      "import": "./dist/components/tooltip/index.mjs"
+    },
+    "./virtual-select": {
+      "types": "./dist/components/virtual-select/index.d.ts",
+      "import": "./dist/components/virtual-select/index.mjs"
+    },
+    "./styles": "./dist/blumnai-design-system.css",
+    "./*": {
+      "types": "./dist/*.d.ts",
+      "import": "./dist/*.mjs"
+    }
+  },
+  "files": [
+    "dist",
+    "avatar",
+    "badge",
+    "breadcrumbs",
+    "button",
+    "calendar",
+    "card",
+    "carousel",
+    "chart",
+    "checkbox",
+    "chip",
+    "collapsible",
+    "context-menu",
+    "dialog",
+    "divider",
+    "drawer",
+    "dropdown",
+    "file-upload",
+    "form",
+    "hover-card",
+    "icons",
+    "input",
+    "menubar",
+    "navigation-menu",
+    "pagination",
+    "popover",
+    "progress",
+    "radio",
+    "resizable",
+    "scroll-area",
+    "select",
+    "sidebar",
+    "skeleton",
+    "slider",
+    "styles",
+    "switch",
+    "table",
+    "tabs",
+    "textarea",
+    "time-picker",
+    "toast",
+    "tooltip",
+    "virtual-select",
+    "AI.md",
+    "ICONS.md",
+    "README.md",
+    "skills"
+  ],
+  "agents": {
+    "skills": [
+      {
+        "name": "blumnai-design-system",
+        "path": "./skills/blumnai-design-system"
+      }
+    ]
+  },
+  "sideEffects": [
+    "*.css",
+    "dist/*.css"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:lib": "npm run prebuild:lib && vite build --mode lib && tsc --project tsconfig.lib.json && tsc-alias --project tsconfig.lib.json && node scripts/strip-css-layers.mjs && node scripts/inject-use-client.mjs && node scripts/generate-subpath-proxies.mjs",
+    "prebuild:lib": "npm run clean:thumbnail-sources && npm run generate:icons && npm run generate:file-icons && npm run generate:flag-registry && npm run generate:ui-icon-registry && npm run generate:isometric-icons && npm run generate:icon-catalog",
+    "typecheck": "tsc -b --noEmit",
+    "lint": "eslint .",
+    "preview": "vite preview",
+    "storybook": "NODE_OPTIONS='--max-old-space-size=8192' storybook dev -p 6006",
+    "build-storybook": "NODE_OPTIONS='--max-old-space-size=8192' storybook build",
+    "extract:icons": "node scripts/extract-icons-to-svg.mjs",
+    "generate:icons": "node scripts/generate-icons.mjs",
+    "generate:file-icons": "node scripts/generate-file-icons.mjs",
+    "generate:flag-registry": "node scripts/generate-flags-icons.mjs",
+    "generate:ui-icon-registry": "node scripts/generate-ui-icon-registry.mjs",
+    "generate:isometric-icons": "node scripts/generate-isometric-icons.mjs",
+    "generate:icon-catalog": "node scripts/generate-icon-catalog.mjs",
+    "clean:thumbnail-sources": "node scripts/clean-svg-source-thumbnails.mjs && node scripts/clean-thumbnail-base64.mjs",
+    "prebuild": "npm run clean:thumbnail-sources && npm run generate:icons && npm run generate:file-icons && npm run generate:flag-registry && npm run generate:ui-icon-registry && npm run generate:isometric-icons",
+    "prestorybook": "npm run clean:thumbnail-sources && npm run generate:icons && npm run generate:file-icons && npm run generate:flag-registry && npm run generate:ui-icon-registry && npm run generate:isometric-icons",
+    "test:visual": "playwright test",
+    "test:visual:ui": "playwright test --ui",
+    "test:visual:update": "playwright test --update-snapshots",
+    "prepublishOnly": "npm run build:lib"
+  },
+  "peerDependencies": {
+    "@hookform/resolvers": "^3.10.0",
+    "react": "^18.0.0 || ^19.0.0",
+    "react-dom": "^18.0.0 || ^19.0.0",
+    "react-hook-form": "^7.71.2",
+    "zod": "^3.0.0 || ^4.0.0"
+  },
+  "peerDependenciesMeta": {
+    "react-hook-form": {
+      "optional": true
+    },
+    "zod": {
+      "optional": true
+    },
+    "@hookform/resolvers": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@dnd-kit/core": "^6.3.1",
+    "@dnd-kit/sortable": "^10.0.0",
+    "@dnd-kit/utilities": "^3.2.2",
+    "@floating-ui/react": "^0.27.17",
+    "@radix-ui/react-accordion": "^1.2.12",
+    "@radix-ui/react-alert-dialog": "^1.1.15",
+    "@radix-ui/react-aspect-ratio": "^1.1.8",
+    "@radix-ui/react-avatar": "^1.1.11",
+    "@radix-ui/react-checkbox": "^1.3.3",
+    "@radix-ui/react-collapsible": "^1.1.12",
+    "@radix-ui/react-context-menu": "^2.2.16",
+    "@radix-ui/react-dialog": "^1.1.15",
+    "@radix-ui/react-dropdown-menu": "^2.1.16",
+    "@radix-ui/react-hover-card": "^1.1.15",
+    "@radix-ui/react-label": "^2.1.8",
+    "@radix-ui/react-menubar": "^1.1.16",
+    "@radix-ui/react-navigation-menu": "^1.2.14",
+    "@radix-ui/react-popover": "^1.1.15",
+    "@radix-ui/react-progress": "^1.1.8",
+    "@radix-ui/react-radio-group": "^1.3.8",
+    "@radix-ui/react-scroll-area": "^1.2.10",
+    "@radix-ui/react-select": "^2.2.6",
+    "@radix-ui/react-separator": "^1.1.8",
+    "@radix-ui/react-slider": "^1.3.6",
+    "@radix-ui/react-slot": "^1.2.4",
+    "@radix-ui/react-switch": "^1.2.6",
+    "@radix-ui/react-tabs": "^1.1.13",
+    "@radix-ui/react-toast": "^1.2.15",
+    "@radix-ui/react-toggle": "^1.1.10",
+    "@radix-ui/react-toggle-group": "^1.1.11",
+    "@radix-ui/react-tooltip": "^1.2.8",
+    "@tanstack/react-table": "^8.21.3",
+    "@tanstack/react-virtual": "^3.13.21",
+    "class-variance-authority": "^0.7.1",
+    "cmdk": "^1.1.1",
+    "date-fns": "^4.1.0",
+    "embla-carousel-autoplay": "^8.6.0",
+    "embla-carousel-fade": "^8.6.0",
+    "embla-carousel-react": "^8.6.0",
+    "embla-carousel-wheel-gestures": "^8.1.0",
+    "input-otp": "^1.4.2",
+    "next-themes": "^0.4.6",
+    "react-day-picker": "^9.13.0",
+    "react-resizable-panels": "^4.5.5",
+    "recharts": "^3.7.0",
+    "sonner": "^2.0.7",
+    "tailwind-merge": "^3.4.0",
+    "tw-animate-css": "^1.4.0",
+    "vaul": "^1.1.2"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.39.1",
+    "@playwright/test": "^1.58.1",
+    "@storybook/addon-docs": "9.1.17",
+    "@storybook/react-vite": "9.1.17",
+    "@tailwindcss/postcss": "^4.1.18",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/node": "^24.10.1",
+    "@types/react": "^19.2.5",
+    "@types/react-dom": "^19.2.3",
+    "@vanilla-extract/css": "^1.18.0",
+    "@vanilla-extract/vite-plugin": "^5.1.4",
+    "@vitejs/plugin-react": "^5.1.1",
+    "ajv": "^8.17.1",
+    "autoprefixer": "^10.4.23",
+    "clsx": "^2.1.1",
+    "eslint": "^9.39.1",
+    "eslint-plugin-react-hooks": "^7.0.1",
+    "eslint-plugin-react-refresh": "^0.4.24",
+    "eslint-plugin-storybook": "9.1.17",
+    "globals": "^16.5.0",
+    "i18n-iso-countries": "^7.14.0",
+    "postcss": "^8.5.6",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "remixicon": "^4.6.0",
+    "storybook": "9.1.17",
+    "tailwindcss": "^4.1.18",
+    "tsc-alias": "^1.8.16",
+    "typescript": "~5.9.3",
+    "typescript-eslint": "^8.46.4",
+    "vite": "^7.2.4",
+    "vite-plugin-dts": "^4.5.4"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlumnAI-Studio/blumnai-design-system.git"
+  },
+  "eslintConfig": {
+    "extends": [
+      "plugin:storybook/recommended"
+    ]
+  }
+}

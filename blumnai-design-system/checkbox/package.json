@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/checkbox/index.mjs",
+  "module": "../dist/components/checkbox/index.mjs",
+  "types": "../dist/components/checkbox/index.d.ts"
+}

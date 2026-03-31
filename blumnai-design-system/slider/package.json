@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/slider/index.mjs",
+  "module": "../dist/components/slider/index.mjs",
+  "types": "../dist/components/slider/index.d.ts"
+}

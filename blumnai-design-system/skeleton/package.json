@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/skeleton/index.mjs",
+  "module": "../dist/components/skeleton/index.mjs",
+  "types": "../dist/components/skeleton/index.d.ts"
+}

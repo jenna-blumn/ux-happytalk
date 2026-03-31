@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/context-menu/index.mjs",
+  "module": "../dist/components/context-menu/index.mjs",
+  "types": "../dist/components/context-menu/index.d.ts"
+}

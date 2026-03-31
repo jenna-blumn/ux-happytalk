@@ -1,0 +1,12 @@
+import type { Props } from '../../Icon/IconWrapper.types';
+export declare const BrandDeepseekIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDigitalOceanIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDiscordIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDockerIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDogeIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDotenvIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDropboxIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandDubIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandEdgeIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandElysiaJSIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandEthereumIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;

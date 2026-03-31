@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/collapsible/index.mjs",
+  "module": "../dist/components/collapsible/index.mjs",
+  "types": "../dist/components/collapsible/index.d.ts"
+}

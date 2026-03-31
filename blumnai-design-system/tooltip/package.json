@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/tooltip/index.mjs",
+  "module": "../dist/components/tooltip/index.mjs",
+  "types": "../dist/components/tooltip/index.d.ts"
+}

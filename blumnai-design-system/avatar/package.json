@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/avatar/index.mjs",
+  "module": "../dist/components/avatar/index.mjs",
+  "types": "../dist/components/avatar/index.d.ts"
+}

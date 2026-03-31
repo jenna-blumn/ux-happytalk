@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/hover-card/index.mjs",
+  "module": "../dist/components/hover-card/index.mjs",
+  "types": "../dist/components/hover-card/index.d.ts"
+}

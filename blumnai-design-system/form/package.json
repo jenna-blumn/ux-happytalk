@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/form/index.mjs",
+  "module": "../dist/components/form/index.mjs",
+  "types": "../dist/components/form/index.d.ts"
+}
