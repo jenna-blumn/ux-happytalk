@@ -1,4 +1,3 @@
-import svgPaths from "../../imports/svg-lavpwqak8k";
 import { ChatHeader } from "./ChatHeader";
 import { ChatInput } from "./ChatInput";
 

@@ -1,5 +1,5 @@
 import { FilterOptions } from "./FilterOptions";
-import { Button } from "../ui/button";
+import { TabPills } from "../ui/tab-pills";
 
 interface TemplateFilterProps {
   categories: Array<{
@@ -24,7 +24,7 @@ export function TemplateFilter({ categories, activeCategory = 0, onCategoryChang
   return (
     <div className="content-stretch flex flex-col gap-[12px] items-center relative shrink-0 w-full" data-name="Option">
       {/* Category Pill Tabs */}
-      <Button
+      <TabPills
         items={categoryLabels}
         activeTab={activeLabel}
         onTabChange={handleCategoryChange}

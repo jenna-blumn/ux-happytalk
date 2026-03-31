@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { InfoContainer } from "./InfoContainer";
 import { TemplateSection } from "./TemplateSection";
-import { Button } from "../ui/button";
+import { TabPills } from "../ui/tab-pills";
 
 // Mock data
 const infoTabs = ["상담방 정보", "고객정보", "태스크", "상담이력", "파일첨부", "메모"];
@@ -117,7 +117,7 @@ export function CustomerInfo() {
           <div aria-hidden="true" className="absolute border-[0px_0px_1px] border-solid border-zinc-200 inset-0 pointer-events-none" />
           <div className="flex flex-col items-center justify-center size-full">
             <div className="box-border content-stretch flex flex-col gap-[12px] items-center justify-center p-[12px] relative w-full">
-              <Button
+              <TabPills
                 items={infoTabs}
                 activeTab={activeInfoTab}
                 onTabChange={setActiveInfoTab}

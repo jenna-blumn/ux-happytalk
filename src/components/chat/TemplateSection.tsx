@@ -1,4 +1,4 @@
-import { Button } from "../ui/button";
+import { TabPills } from "../ui/tab-pills";
 import { TemplateFilter } from "./TemplateFilter";
 import { TemplateList } from "./TemplateList";
 import { useState } from "react";
@@ -54,7 +54,7 @@ export function TemplateSection({
               <div className="box-border flex flex-col gap-[12px] items-start px-[16px] py-[12px] relative w-full h-full">
 
                 {/* Template Tabs (Custom Button) */}
-                <Button
+                <TabPills
                   items={tabs}
                   activeTab={selectedTab}
                   onTabChange={handleTabChange}

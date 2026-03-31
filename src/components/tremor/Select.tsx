@@ -3,8 +3,6 @@
 import React from "react"
 import * as SelectPrimitives from "@radix-ui/react-select"
 import {
-    RiArrowDownSLine,
-    RiArrowUpSLine,
     RiCheckLine,
     RiExpandUpDownLine,
 } from "@remixicon/react"

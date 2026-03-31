@@ -137,7 +137,7 @@ interface FilterOptionsProps {
   onRegister?: () => void;
 }
 
-export function FilterOptions({ onSort, onDelete, onRegister }: FilterOptionsProps) {
+export function FilterOptions({ onDelete, onRegister }: FilterOptionsProps) {
   return (
     <div className="content-stretch flex gap-[12px] items-center relative w-full p-1" data-name="options">
       <Sorting />

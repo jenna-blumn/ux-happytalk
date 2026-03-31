@@ -1,7 +1,7 @@
 // Tremor Raw TextInput [v0.0.1]
 
 import React from "react"
-import { RiEyeFill, RiEyeOffFill, RiSearchLine } from "@remixicon/react"
+import { RiEyeFill, RiEyeOffFill } from "@remixicon/react"
 
 import { cx, focusInput, hasErrorInput } from "../../lib/utils"
 
