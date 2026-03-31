@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/IsometricIcon/icons/index.mjs",
+  "module": "../../dist/components/icons/IsometricIcon/icons/index.mjs",
+  "types": "../../dist/components/icons/IsometricIcon/icons/index.d.ts"
+}

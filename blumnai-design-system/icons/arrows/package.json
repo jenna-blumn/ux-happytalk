@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/Icon/icons/arrows.mjs",
+  "module": "../../dist/components/icons/Icon/icons/arrows.mjs",
+  "types": "../../dist/components/icons/Icon/icons/arrows.d.ts"
+}

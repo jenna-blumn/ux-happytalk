@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/Icon/icons/design.mjs",
+  "module": "../../dist/components/icons/Icon/icons/design.mjs",
+  "types": "../../dist/components/icons/Icon/icons/design.d.ts"
+}

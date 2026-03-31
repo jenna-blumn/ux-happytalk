@@ -1,5 +1,4 @@
 import svgPaths from "../../imports/svg-18bsoavcqy";
-import { Switch } from "@tremor/react";
 import React, { useState } from "react";
 
 function Breadcrumb() {
@@ -360,7 +359,12 @@ function ButtonFunctionMasking() {
   return (
     <div className="content-stretch flex gap-[4px] items-center relative shrink-0" data-name="Button/function.Masking">
       <p className="font-sans leading-none not-italic opacity-70 relative shrink-0 text-[12px] text-nowrap text-zinc-900 tracking-[-0.24px] whitespace-pre">{`마스킹 `}</p>
-      <Switch checked={isMasking} onChange={setIsMasking} />
+      <button
+        onClick={() => setIsMasking(!isMasking)}
+        className={`relative inline-flex h-5 w-9 items-center rounded-full transition-colors ${isMasking ? 'bg-blue-500' : 'bg-zinc-300'}`}
+      >
+        <span className={`inline-block h-3.5 w-3.5 rounded-full bg-white transition-transform ${isMasking ? 'translate-x-4.5' : 'translate-x-0.5'}`} />
+      </button>
     </div>
   );
 }

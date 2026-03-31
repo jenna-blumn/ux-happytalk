@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/Icon/icons/communication.mjs",
+  "module": "../../dist/components/icons/Icon/icons/communication.mjs",
+  "types": "../../dist/components/icons/Icon/icons/communication.d.ts"
+}
