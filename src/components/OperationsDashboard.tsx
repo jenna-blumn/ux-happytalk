@@ -2,8 +2,7 @@ import { useState } from 'react';
 import { Calendar, MessageSquare, Network, Leaf, RefreshCw, Lightbulb } from 'lucide-react';
 import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, LineChart, Line, Cell } from 'recharts';
 import { motion } from 'framer-motion';
-import { Button } from './ui/button';
-import { Badge } from './ui/badge';
+import { Button, Badge } from '@blumnai-studio/blumnai-design-system';
 
 // Types and Mock Data
 type ChartType = 'bar' | 'line';
@@ -21,7 +20,7 @@ const SectionHeader = ({ title, icon: Icon, onIconClick }: { title: string; icon
   <div className="flex justify-between items-center w-full mb-3">
     <div className="text-[17px] font-semibold text-text-muted leading-7 tracking-tight">{title}</div>
     {Icon && (
-      <Button variant="secondary" onClick={onIconClick} className="w-[30px] h-[30px] p-0 flex items-center justify-center">
+      <Button buttonStyle="secondary" onClick={onIconClick} className="w-[30px] h-[30px] p-0 flex items-center justify-center">
         <Icon size={16} />
       </Button>
     )}
@@ -44,7 +43,7 @@ export const OperationsDashboard = () => {
         <div className="flex justify-between items-center mb-1">
           <div className="flex items-center gap-3.5">
             <h1 className="text-xl font-semibold leading-7 tracking-tight">운영 인사이트</h1>
-            <Button variant="secondary" size="sm" className="h-[26px] text-xs px-3 rounded-full">도움말</Button>
+            <Button buttonStyle="secondary" size="sm" className="h-[26px] text-xs px-3 rounded-full">도움말</Button>
           </div>
         </div>
         <p className="text-[13px] text-text-muted mb-4">
@@ -105,19 +104,19 @@ export const OperationsDashboard = () => {
                 <div className="grid grid-cols-2 gap-y-2 text-sm">
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium">해피톡</span>
-                    <Badge variant="success">사용</Badge>
+                    <Badge label="사용" color="green" />
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium text-text-muted">카카오톡</span>
-                    <Badge variant="secondary">미사용</Badge>
+                    <Badge label="미사용" color="neutral" />
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium text-text-muted">네이버톡톡</span>
-                    <Badge variant="secondary">미사용</Badge>
+                    <Badge label="미사용" color="neutral" />
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-16 font-medium text-text-muted">인스타그램</span>
-                    <Badge variant="secondary">미사용</Badge>
+                    <Badge label="미사용" color="neutral" />
                   </div>
                 </div>
               </div>
@@ -128,11 +127,11 @@ export const OperationsDashboard = () => {
                 <div className="flex flex-col gap-2 text-sm">
                   <div className="flex items-center gap-3">
                     <span className="w-14 font-medium text-text-muted">주문연동</span>
-                    <Badge variant="secondary">미연동</Badge>
+                    <Badge label="미연동" color="neutral" />
                   </div>
                   <div className="flex items-center gap-3">
                     <span className="w-14 font-medium text-text-muted">SMS인증</span>
-                    <Badge variant="secondary">미사용</Badge>
+                    <Badge label="미사용" color="neutral" />
                     <span className="underline cursor-pointer text-primary hover:text-blue-600 ml-1 font-medium">SMS인증 설정</span>
                   </div>
                 </div>
@@ -147,14 +146,14 @@ export const OperationsDashboard = () => {
                   <div className="flex items-center gap-4">
                     <span className="w-10 font-medium text-text-muted">해피톡</span>
                     <div className="flex gap-4 items-center">
-                      <Badge variant="warning">Enterprise</Badge>
+                      <Badge label="Enterprise" color="yellow" />
                       <span className="text-primary font-semibold">1개 (인증:1개 / 미인증:0개)</span>
                     </div>
                   </div>
                   <div className="flex items-center gap-4">
                     <span className="w-10 font-medium text-text-muted">챗봇</span>
                     <div className="flex gap-4">
-                      <Badge variant="secondary">미사용</Badge>
+                      <Badge label="미사용" color="neutral" />
                       <span className="text-primary font-semibold ml-1">0건 / 0건</span>
                     </div>
                   </div>
@@ -169,7 +168,7 @@ export const OperationsDashboard = () => {
                       <span className="text-[15px] font-medium text-text-muted">보유 금액</span>
                       <span className="text-[17px] font-bold text-text-default tracking-tight">0원</span>
                     </div>
-                    <Button variant="secondary" className="w-[30px] h-[30px] p-0 flex items-center justify-center">
+                    <Button buttonStyle="secondary" className="w-[30px] h-[30px] p-0 flex items-center justify-center">
                       <div className="w-4 h-4 rounded-full flex items-center justify-center text-[10px] bg-yellow-400 text-white font-bold italic">H</div>
                     </Button>
                   </div>
@@ -183,7 +182,7 @@ export const OperationsDashboard = () => {
                     <span className="w-20 font-medium text-text-muted">차감예정금액</span>
                     <div className="flex items-center gap-3">
                       <span className="text-red-500 font-semibold">0원</span>
-                      <Button variant="default" size="sm" className="h-[24px] px-2 text-xs">충전</Button>
+                      <Button buttonStyle="primary" size="sm" className="h-[24px] px-2 text-xs">충전</Button>
                     </div>
                   </div>
                 </div>

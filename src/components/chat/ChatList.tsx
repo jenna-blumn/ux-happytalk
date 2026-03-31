@@ -1,7 +1,7 @@
 import svgPaths from "../../imports/svg-lavpwqak8k";
 import svgPathsTitle from "../../imports/svg-e8prrac6wu";
 import svgPathsItem from "../../imports/svg-i12acbiyi4";
-import { Button } from "../ui/button";
+import { Button } from "@blumnai-studio/blumnai-design-system";
 const placeholderImg = "";
 
 

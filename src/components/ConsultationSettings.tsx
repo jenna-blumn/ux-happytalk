@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { ChevronUp, ChevronDown, Save, Lightbulb, MessageSquareOff, BellRing, PlusSquare, Info } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { motion, AnimatePresence } from 'framer-motion';

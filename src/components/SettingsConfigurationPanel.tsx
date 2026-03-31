@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Clock, Save, ChevronUp, ChevronDown, Lightbulb, Utensils, Moon, HelpCircle, Check } from 'lucide-react';
+import { Clock, Save, ChevronUp, ChevronDown, Lightbulb, Utensils, Moon, Check } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { cn } from '@/lib/utils';
 
@@ -10,11 +10,6 @@ type DayConfig = {
   startTime: string;
   endTime: string;
   isNextDay: boolean;
-};
-type WeekConfig = {
-  weekday: DayConfig;
-  saturday: DayConfig;
-  sunday: DayConfig;
 };
 type ToggleState = {
   outsideHours: boolean;

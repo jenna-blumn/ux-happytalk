@@ -9,7 +9,7 @@ import {
     Info,
     SquaresFour,
 } from "@phosphor-icons/react";
-import { cn } from "./ui/utils";
+import { cn } from "@/lib/utils";
 
 // HappyTalk Logo Icon
 function IcChannelHappytalkBalloonS() {

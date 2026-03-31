@@ -1,7 +1,7 @@
 import React from "react";
 import { useLocation, useNavigate } from "react-router-dom";
 import svgPaths from "../imports/svg-yktbh51fzf";
-import { cn } from "./ui/utils";
+import { cn } from "@/lib/utils";
 
 // --- Icons & Buttons ---
 

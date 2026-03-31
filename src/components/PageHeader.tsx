@@ -1,4 +1,4 @@
-import { Badge } from "./ui/badge";
+import { Badge } from "@blumnai-studio/blumnai-design-system";
 
 interface PageHeaderProps {
     title: string;
@@ -14,12 +14,7 @@ export function PageHeader({ title, description, showHelpBadge = false }: PageHe
                     {title}
                 </h1>
                 {showHelpBadge && (
-                    <Badge
-                        variant="secondary"
-                        className="text-xs bg-gray-200 text-content-sub hover:bg-gray-300 font-normal rounded-sm px-1.5 py-0.5 h-auto"
-                    >
-                        도움말
-                    </Badge>
+                    <Badge label="도움말" color="neutral" size="sm" />
                 )}
             </div>
             {description && (

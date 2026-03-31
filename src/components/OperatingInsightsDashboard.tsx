@@ -15,9 +15,7 @@ import {
     BarChart,
     Flex,
 } from "@tremor/react";
-import { Button } from "./ui/button";
-import { Card } from "./ui/card";
-import { Badge } from "./ui/badge";
+import { Button, Card, Badge } from "@blumnai-studio/blumnai-design-system";
 
 // Sample data for charts
 const chartData = [
@@ -88,19 +86,19 @@ export function OperatingInsightsDashboard() {
                     <div className="grid grid-cols-2 gap-y-5">
                         <div className="flex justify-between items-center pr-4 border-r border-zinc-100">
                             <span className="text-zinc-500 text-sm">해피톡</span>
-                            <Badge variant="info">사용</Badge>
+                            <Badge label="사용" color="blue" />
                         </div>
                         <div className="flex justify-between items-center pl-4">
                             <span className="text-zinc-500 text-sm">카카오톡</span>
-                            <Badge variant="secondary">미사용</Badge>
+                            <Badge label="미사용" color="neutral" />
                         </div>
                         <div className="flex justify-between items-center pr-4 border-r border-zinc-100">
                             <span className="text-zinc-500 text-sm">네이버톡톡</span>
-                            <Badge variant="secondary">미사용</Badge>
+                            <Badge label="미사용" color="neutral" />
                         </div>
                         <div className="flex justify-between items-center pl-4">
                             <span className="text-zinc-500 text-sm">인스타그램</span>
-                            <Badge variant="secondary">미사용</Badge>
+                            <Badge label="미사용" color="neutral" />
                         </div>
                     </div>
                 </Card>
@@ -114,13 +112,13 @@ export function OperatingInsightsDashboard() {
                     <div className="space-y-4">
                         <div className="flex justify-between items-center">
                             <span className="text-zinc-500 text-sm">주문연동</span>
-                            <Badge variant="secondary">미연동</Badge>
+                            <Badge label="미연동" color="neutral" />
                         </div>
                         <div className="flex justify-between items-center">
                             <span className="text-zinc-500 text-sm">SMS인증</span>
                             <div className="flex items-center gap-2">
                                 <span className="text-zinc-400 text-sm">미사용</span>
-                                <Button variant="link" size="xs" className="text-primary font-bold">
+                                <Button buttonStyle="ghost" size="xs" className="text-primary font-bold">
                                     설정
                                 </Button>
                             </div>
@@ -141,12 +139,7 @@ export function OperatingInsightsDashboard() {
                         <div className="flex justify-between items-center">
                             <div className="flex items-center gap-2">
                                 <span className="font-normal text-[#111115] text-sm">해피톡</span>
-                                <Badge
-                                    variant="warning"
-                                    className="bg-sort-amber/5 text-sort-amber ring-sort-amber/20"
-                                >
-                                    Enterprise
-                                </Badge>
+                                <Badge label="Enterprise" color="yellow" />
                             </div>
                             <span className="text-primary font-normal text-base">1개</span>
                         </div>
@@ -171,7 +164,7 @@ export function OperatingInsightsDashboard() {
                             <span className="text-sm text-zinc-400">차감 예정일 : 2025.12.01</span>
                             <div className="flex items-center gap-3">
                                 <span className="text-sort-red font-normal text-sm">0원 차감 예정</span>
-                                <Button variant="default" size="xs" className="px-3 font-normal bg-sort-green hover:bg-sort-green/90 ring-0 border-none rounded-[4px]">
+                                <Button buttonStyle="primary" size="xs" className="px-3 font-normal bg-sort-green hover:bg-sort-green/90 ring-0 border-none rounded-[4px]">
                                     충전
                                 </Button>
                             </div>
@@ -206,8 +199,8 @@ export function OperatingInsightsDashboard() {
                             <div className="flex justify-between items-center mb-6">
                                 <h4 className="font-normal text-[#111115]">일별 사용량 추이(건)</h4>
                                 <div className="flex bg-zinc-900/[0.04] rounded-[6px] p-[2px]">
-                                    <Button size="2xs" variant="default" className="px-3">막대</Button>
-                                    <Button size="2xs" variant="ghost" className="px-3">선형</Button>
+                                    <Button size="2xs" buttonStyle="primary" className="px-3">막대</Button>
+                                    <Button size="2xs" buttonStyle="ghost" className="px-3">선형</Button>
                                 </div>
                             </div>
                             <div className="h-72">
@@ -243,8 +236,8 @@ export function OperatingInsightsDashboard() {
                             <div className="flex justify-between items-center mb-6">
                                 <h4 className="font-normal text-[#111115]">일별 발송량 추이(건)</h4>
                                 <div className="flex bg-zinc-900/[0.04] rounded-[6px] p-[2px]">
-                                    <Button size="2xs" variant="default" className="px-3">막대</Button>
-                                    <Button size="2xs" variant="ghost" className="px-3">선형</Button>
+                                    <Button size="2xs" buttonStyle="primary" className="px-3">막대</Button>
+                                    <Button size="2xs" buttonStyle="ghost" className="px-3">선형</Button>
                                 </div>
                             </div>
                             <div className="h-72">

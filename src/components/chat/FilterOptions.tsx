@@ -1,5 +1,5 @@
 import svgPaths from "../../imports/svg-4y1gymf3l6";
-import { Button } from "../ui/button";
+import { Button } from "@blumnai-studio/blumnai-design-system";
 
 function ArrowsDownUp() {
   return (
