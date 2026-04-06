@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/calendar/index.mjs",
+  "module": "../dist/components/calendar/index.mjs",
+  "types": "../dist/components/calendar/index.d.ts"
+}

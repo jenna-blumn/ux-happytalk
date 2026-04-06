@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/toast/index.mjs",
+  "module": "../dist/components/toast/index.mjs",
+  "types": "../dist/components/toast/index.d.ts"
+}

@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/Icon/icons/business.mjs",
+  "module": "../../dist/components/icons/Icon/icons/business.mjs",
+  "types": "../../dist/components/icons/Icon/icons/business.d.ts"
+}

@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/file-upload/index.mjs",
+  "module": "../dist/components/file-upload/index.mjs",
+  "types": "../dist/components/file-upload/index.d.ts"
+}

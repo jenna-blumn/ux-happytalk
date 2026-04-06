@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/popover/index.mjs",
+  "module": "../dist/components/popover/index.mjs",
+  "types": "../dist/components/popover/index.d.ts"
+}

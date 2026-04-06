@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/radio/index.mjs",
+  "module": "../dist/components/radio/index.mjs",
+  "types": "../dist/components/radio/index.d.ts"
+}

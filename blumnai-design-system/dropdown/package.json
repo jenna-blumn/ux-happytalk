@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/dropdown/index.mjs",
+  "module": "../dist/components/dropdown/index.mjs",
+  "types": "../dist/components/dropdown/index.d.ts"
+}

@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/input/index.mjs",
+  "module": "../dist/components/input/index.mjs",
+  "types": "../dist/components/input/index.d.ts"
+}

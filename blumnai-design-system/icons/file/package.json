@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/FileIcon/index.mjs",
+  "module": "../../dist/components/icons/FileIcon/index.mjs",
+  "types": "../../dist/components/icons/FileIcon/index.d.ts"
+}

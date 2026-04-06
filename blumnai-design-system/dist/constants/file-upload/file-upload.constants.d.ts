@@ -1,0 +1,55 @@
+/**
+ * FileUpload component constants
+ *
+ * Based on Figma design specifications
+ */
+export declare const FILE_UPLOAD_AREA_BASE = "flex flex-col items-center justify-center ds-gap-12 rounded-lg cursor-pointer transition-colors duration-150";
+export declare const FILE_UPLOAD_AREA_STATE: {
+    readonly default: "bg-default border border-dashed border-darker hover:bg-subtle";
+    readonly dragging: "bg-state-soft border border-dashed border-accent";
+    readonly disabled: "bg-input-disabled border border-dashed border-default cursor-not-allowed opacity-50";
+    readonly error: "bg-default border border-dashed border-destructive";
+};
+export declare const FILE_UPLOAD_AREA_PADDING = "padding-24";
+export declare const FILE_UPLOAD_AREA_TITLE = "font-body size-sm line-height-leading-5 letter-spacing-tracking-normal font-medium text-default text-center";
+export declare const FILE_UPLOAD_AREA_TITLE_DISABLED = "font-body size-sm line-height-leading-5 letter-spacing-tracking-normal font-medium text-hint text-center";
+export declare const FILE_UPLOAD_AREA_CLICK_TEXT = "text-informative";
+export declare const FILE_UPLOAD_AREA_CLICK_TEXT_DISABLED = "text-hint";
+export declare const FILE_UPLOAD_AREA_DESC = "font-body size-xs line-height-leading-4 letter-spacing-tracking-normal text-muted text-center";
+export declare const FILE_UPLOAD_AREA_DESC_DISABLED = "font-body size-xs line-height-leading-4 letter-spacing-tracking-normal text-hint text-center";
+export declare const FILE_UPLOAD_AREA_CAPTION = "font-body size-xs line-height-leading-4 letter-spacing-tracking-tight text-muted";
+export declare const FILE_UPLOAD_AREA_ERROR_CAPTION = "font-body size-xs line-height-leading-4 letter-spacing-tracking-tight text-destructive";
+export declare const FILE_UPLOAD_CARD_BASE = "flex items-center ds-gap-8 rounded-lg border-default bg-card shadow-component-default";
+export declare const FILE_UPLOAD_CARD_SIZE: {
+    readonly lg: {
+        readonly container: "padding-y-8 padding-l-8 padding-r-12";
+        readonly thumbnail: "width-40 height-40";
+    };
+    readonly sm: {
+        readonly container: "padding-y-6 padding-l-6 padding-r-12";
+        readonly thumbnail: "width-32 height-32";
+    };
+};
+export declare const FILE_UPLOAD_THUMBNAIL = "rounded-sm overflow-hidden flex-shrink-0 flex items-center justify-center bg-subtle";
+export declare const FILE_UPLOAD_CONTENT = "flex-1 min-w-0 flex flex-col ds-gap-2";
+export declare const FILE_UPLOAD_FILENAME = "font-body size-sm line-height-leading-5 letter-spacing-tracking-normal font-medium text-default truncate";
+export declare const FILE_UPLOAD_META = "flex items-center ds-gap-4 font-body size-xs line-height-leading-4 letter-spacing-tracking-normal text-muted";
+export declare const FILE_UPLOAD_META_DIVIDER = "text-hint";
+export declare const FILE_UPLOAD_STATUS_TEXT: {
+    readonly uploaded: "text-success";
+    readonly uploading: "text-muted";
+    readonly error: "text-destructive";
+};
+export declare const FILE_UPLOAD_STATUS_LABEL: {
+    readonly uploaded: "Uploaded";
+    readonly uploading: "Uploading";
+    readonly error: "Error";
+};
+export declare const FILE_UPLOAD_PROGRESS_TRACK = "w-full height-4 bg-muted rounded-full overflow-hidden";
+export declare const FILE_UPLOAD_PROGRESS_FILL = "h-full bg-state-primary transition-all duration-200";
+export declare const FILE_UPLOAD_ACTIONS = "flex items-center ds-gap-4 flex-shrink-0";
+export declare const FILE_UPLOAD_AREA_ICON_SIZE = 40;
+export declare const FILE_UPLOAD_CARD_ICON_SIZE: {
+    readonly lg: 20;
+    readonly sm: 16;
+};

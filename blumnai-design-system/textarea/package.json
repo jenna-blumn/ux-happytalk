@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/textarea/index.mjs",
+  "module": "../dist/components/textarea/index.mjs",
+  "types": "../dist/components/textarea/index.d.ts"
+}

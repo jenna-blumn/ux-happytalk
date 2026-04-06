@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/Icon/icons/health & medical.mjs",
+  "module": "../../dist/components/icons/Icon/icons/health & medical.mjs",
+  "types": "../../dist/components/icons/Icon/icons/health & medical.d.ts"
+}

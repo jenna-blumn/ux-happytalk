@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/chip/index.mjs",
+  "module": "../dist/components/chip/index.mjs",
+  "types": "../dist/components/chip/index.d.ts"
+}

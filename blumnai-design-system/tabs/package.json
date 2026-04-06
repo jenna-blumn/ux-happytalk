@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/tabs/index.mjs",
+  "module": "../dist/components/tabs/index.mjs",
+  "types": "../dist/components/tabs/index.d.ts"
+}

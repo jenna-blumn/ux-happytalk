@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/BrandIcon/icons/index.mjs",
+  "module": "../../dist/components/icons/BrandIcon/icons/index.mjs",
+  "types": "../../dist/components/icons/BrandIcon/icons/index.d.ts"
+}

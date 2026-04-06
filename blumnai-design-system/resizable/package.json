@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/resizable/index.mjs",
+  "module": "../dist/components/resizable/index.mjs",
+  "types": "../dist/components/resizable/index.d.ts"
+}

@@ -1,0 +1,10 @@
+import * as React from 'react';
+import type { CarouselProps, CarouselContentProps, CarouselItemProps, CarouselNavProps, CarouselIndicatorsProps, CarouselContextProps } from './Carousel.types';
+export declare function useCarousel(): CarouselContextProps;
+export declare const Carousel: React.ForwardRefExoticComponent<CarouselProps & React.RefAttributes<HTMLDivElement>>;
+export declare const CarouselContent: React.ForwardRefExoticComponent<CarouselContentProps & React.RefAttributes<HTMLDivElement>>;
+export declare const CarouselViewport: React.ForwardRefExoticComponent<React.HTMLAttributes<HTMLDivElement> & React.RefAttributes<HTMLDivElement>>;
+export declare const CarouselItem: React.ForwardRefExoticComponent<CarouselItemProps & React.RefAttributes<HTMLDivElement>>;
+export declare const CarouselPrevious: React.ForwardRefExoticComponent<CarouselNavProps & React.RefAttributes<HTMLButtonElement>>;
+export declare const CarouselNext: React.ForwardRefExoticComponent<CarouselNavProps & React.RefAttributes<HTMLButtonElement>>;
+export declare const CarouselIndicators: React.ForwardRefExoticComponent<CarouselIndicatorsProps & React.RefAttributes<HTMLDivElement>>;

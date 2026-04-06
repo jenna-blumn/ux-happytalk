@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/time-picker/index.mjs",
+  "module": "../dist/components/time-picker/index.mjs",
+  "types": "../dist/components/time-picker/index.d.ts"
+}

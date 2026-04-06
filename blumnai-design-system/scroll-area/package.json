@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/scroll-area/index.mjs",
+  "module": "../dist/components/scroll-area/index.mjs",
+  "types": "../dist/components/scroll-area/index.d.ts"
+}

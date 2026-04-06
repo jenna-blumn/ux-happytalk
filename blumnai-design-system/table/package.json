@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/table/index.mjs",
+  "module": "../dist/components/table/index.mjs",
+  "types": "../dist/components/table/index.d.ts"
+}

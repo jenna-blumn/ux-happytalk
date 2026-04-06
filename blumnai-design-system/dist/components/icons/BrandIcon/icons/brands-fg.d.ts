@@ -1,0 +1,11 @@
+import type { Props } from '../../Icon/IconWrapper.types';
+export declare const BrandFacebookIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandFigmaIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandFirefoxIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandFramerIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandGimpIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandGitHubIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandGitLabIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandGnailIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandGoogleDriveIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;
+export declare const BrandGoogleIcon: (props: Props) => import("react/jsx-runtime").JSX.Element;

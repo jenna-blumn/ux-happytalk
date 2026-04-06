@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/sidebar/index.mjs",
+  "module": "../dist/components/sidebar/index.mjs",
+  "types": "../dist/components/sidebar/index.d.ts"
+}

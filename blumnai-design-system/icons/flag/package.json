@@ -1,0 +1,5 @@
+{
+  "main": "../../dist/components/icons/FlagIcon/index.mjs",
+  "module": "../../dist/components/icons/FlagIcon/index.mjs",
+  "types": "../../dist/components/icons/FlagIcon/index.d.ts"
+}

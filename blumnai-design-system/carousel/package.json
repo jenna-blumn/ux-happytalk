@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/carousel/index.mjs",
+  "module": "../dist/components/carousel/index.mjs",
+  "types": "../dist/components/carousel/index.d.ts"
+}

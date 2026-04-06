@@ -1,0 +1,5 @@
+{
+  "main": "../dist/components/breadcrumbs/index.mjs",
+  "module": "../dist/components/breadcrumbs/index.mjs",
+  "types": "../dist/components/breadcrumbs/index.d.ts"
+}
